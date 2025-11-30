@@ -1,0 +1,104 @@
+.card {
+    background-color: var(--surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+    overflow: hidden;
+}
+
+/* Elevations */
+.elevation0 {
+    box-shadow: none;
+}
+
+.elevation1 {
+    box-shadow: var(--shadow-sm);
+}
+
+.elevation2 {
+    box-shadow: var(--shadow-base);
+}
+
+.elevation3 {
+    box-shadow: var(--shadow-md);
+}
+
+.elevation4 {
+    box-shadow: var(--shadow-lg);
+}
+
+/* Padding */
+.paddingNone {
+    padding: 0;
+}
+
+.paddingSm {
+    padding: var(--spacing-4);
+}
+
+.paddingMd {
+    padding: var(--spacing-6);
+}
+
+.paddingLg {
+    padding: var(--spacing-8);
+}
+
+/* Hoverable */
+.hoverable {
+    cursor: pointer;
+}
+
+.hoverable:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--border-default);
+}
+
+/* Card Sections */
+.header {
+    padding: var(--spacing-6);
+    border-bottom: 1px solid var(--border-subtle);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+}
+
+.body {
+    padding: var(--spacing-6);
+    color: var(--text-secondary);
+}
+
+.footer {
+    padding: var(--spacing-6);
+    border-top: 1px solid var(--border-subtle);
+    background-color: var(--surface-hover);
+}
+
+/* When card has custom padding, sections should not have their own */
+.card.paddingSm .header,
+.card.paddingSm .body,
+.card.paddingSm .footer,
+.card.paddingMd .header,
+.card.paddingMd .body,
+.card.paddingMd .footer,
+.card.paddingLg .header,
+.card.paddingLg .body,
+.card.paddingLg .footer {
+    padding: 0;
+}
+
+.card.paddingSm .header,
+.card.paddingMd .header,
+.card.paddingLg .header {
+    padding-bottom: var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+}
+
+.card.paddingSm .footer,
+.card.paddingMd .footer,
+.card.paddingLg .footer {
+    padding-top: var(--spacing-4);
+    margin-top: var(--spacing-4);
+    background-color: transparent;
+}

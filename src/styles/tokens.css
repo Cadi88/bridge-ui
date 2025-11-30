@@ -1,0 +1,153 @@
+:root {
+  /* ===== COLOR PALETTE ===== */
+  
+  /* Primary Colors */
+  --color-primary-50: hsl(250, 100%, 97%);
+  --color-primary-100: hsl(250, 95%, 92%);
+  --color-primary-200: hsl(250, 90%, 85%);
+  --color-primary-300: hsl(250, 85%, 75%);
+  --color-primary-400: hsl(250, 80%, 65%);
+  --color-primary-500: hsl(250, 75%, 55%);
+  --color-primary-600: hsl(250, 70%, 45%);
+  --color-primary-700: hsl(250, 65%, 35%);
+  --color-primary-800: hsl(250, 60%, 25%);
+  --color-primary-900: hsl(250, 55%, 15%);
+  
+  /* Secondary Colors */
+  --color-secondary-50: hsl(310, 100%, 97%);
+  --color-secondary-100: hsl(310, 95%, 92%);
+  --color-secondary-200: hsl(310, 90%, 85%);
+  --color-secondary-300: hsl(310, 85%, 75%);
+  --color-secondary-400: hsl(310, 80%, 65%);
+  --color-secondary-500: hsl(310, 75%, 55%);
+  --color-secondary-600: hsl(310, 70%, 45%);
+  --color-secondary-700: hsl(310, 65%, 35%);
+  --color-secondary-800: hsl(310, 60%, 25%);
+  --color-secondary-900: hsl(310, 55%, 15%);
+  
+  /* Neutral Colors */
+  --color-neutral-50: hsl(220, 20%, 97%);
+  --color-neutral-100: hsl(220, 18%, 92%);
+  --color-neutral-200: hsl(220, 16%, 85%);
+  --color-neutral-300: hsl(220, 14%, 75%);
+  --color-neutral-400: hsl(220, 12%, 65%);
+  --color-neutral-500: hsl(220, 10%, 55%);
+  --color-neutral-600: hsl(220, 12%, 45%);
+  --color-neutral-700: hsl(220, 14%, 35%);
+  --color-neutral-800: hsl(220, 16%, 25%);
+  --color-neutral-900: hsl(220, 18%, 15%);
+  
+  /* Semantic Colors */
+  --color-success-50: hsl(140, 80%, 97%);
+  --color-success-100: hsl(140, 75%, 92%);
+  --color-success-500: hsl(140, 70%, 45%);
+  --color-success-600: hsl(140, 65%, 38%);
+  --color-success-700: hsl(140, 60%, 30%);
+  
+  --color-error-50: hsl(0, 80%, 97%);
+  --color-error-100: hsl(0, 75%, 92%);
+  --color-error-500: hsl(0, 70%, 55%);
+  --color-error-600: hsl(0, 65%, 48%);
+  --color-error-700: hsl(0, 60%, 40%);
+  
+  --color-warning-50: hsl(40, 95%, 97%);
+  --color-warning-100: hsl(40, 90%, 92%);
+  --color-warning-500: hsl(40, 85%, 55%);
+  --color-warning-600: hsl(40, 80%, 48%);
+  --color-warning-700: hsl(40, 75%, 40%);
+  
+  --color-info-50: hsl(200, 90%, 97%);
+  --color-info-100: hsl(200, 85%, 92%);
+  --color-info-500: hsl(200, 80%, 50%);
+  --color-info-600: hsl(200, 75%, 43%);
+  --color-info-700: hsl(200, 70%, 35%);
+  
+  /* ===== TYPOGRAPHY ===== */
+  
+  /* Font Families */
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  --font-family-mono: 'Fira Code', 'Courier New', monospace;
+  
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;      /* 12px */
+  --font-size-sm: 0.875rem;     /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;     /* 18px */
+  --font-size-xl: 1.25rem;      /* 20px */
+  --font-size-2xl: 1.5rem;      /* 24px */
+  --font-size-3xl: 1.875rem;    /* 30px */
+  --font-size-4xl: 2.25rem;     /* 36px */
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+  
+  /* ===== SPACING ===== */
+  
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;   /* 4px */
+  --spacing-2: 0.5rem;    /* 8px */
+  --spacing-3: 0.75rem;   /* 12px */
+  --spacing-4: 1rem;      /* 16px */
+  --spacing-5: 1.25rem;   /* 20px */
+  --spacing-6: 1.5rem;    /* 24px */
+  --spacing-8: 2rem;      /* 32px */
+  --spacing-10: 2.5rem;   /* 40px */
+  --spacing-12: 3rem;     /* 48px */
+  --spacing-16: 4rem;     /* 64px */
+  
+  /* ===== SIZING ===== */
+  
+  --size-xs: 1.5rem;      /* 24px */
+  --size-sm: 2rem;        /* 32px */
+  --size-md: 2.5rem;      /* 40px */
+  --size-lg: 3rem;        /* 48px */
+  --size-xl: 3.5rem;      /* 56px */
+  
+  /* ===== BORDER RADIUS ===== */
+  
+  --radius-none: 0;
+  --radius-sm: 0.25rem;   /* 4px */
+  --radius-base: 0.5rem;  /* 8px */
+  --radius-md: 0.75rem;   /* 12px */
+  --radius-lg: 1rem;      /* 16px */
+  --radius-xl: 1.5rem;    /* 24px */
+  --radius-full: 9999px;
+  
+  /* ===== SHADOWS ===== */
+  
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  
+  /* ===== TRANSITIONS ===== */
+  
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* ===== Z-INDEX ===== */
+  
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}

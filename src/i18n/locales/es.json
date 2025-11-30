@@ -1,0 +1,35 @@
+{
+    "common": {
+        "close": "Cerrar",
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "submit": "Enviar",
+        "save": "Guardar",
+        "delete": "Eliminar",
+        "edit": "Editar",
+        "loading": "Cargando...",
+        "error": "Error",
+        "success": "Éxito",
+        "warning": "Advertencia",
+        "info": "Información"
+    },
+    "button": {
+        "click": "Haz clic aquí"
+    },
+    "input": {
+        "placeholder": "Ingresa texto...",
+        "required": "Este campo es obligatorio",
+        "invalid": "Entrada inválida"
+    },
+    "modal": {
+        "close": "Cerrar modal"
+    },
+    "dropdown": {
+        "select": "Selecciona una opción",
+        "noResults": "No se encontraron resultados",
+        "search": "Buscar..."
+    },
+    "tooltip": {
+        "show": "Mostrar tooltip"
+    }
+}
