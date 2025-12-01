@@ -10,6 +10,9 @@ export type { ButtonProps, ButtonVariant, ButtonSize } from './components/Button
 export { Input } from './components/Input';
 export type { InputProps, InputType, InputState } from './components/Input';
 
+export { Select } from './components/Select';
+export type { SelectProps, SelectOption, SelectOptionGroup, SelectState } from './components/Select';
+
 export { Card, CardHeader, CardBody, CardFooter } from './components/Card';
 export type { CardProps, CardSectionProps, CardElevation, CardPadding } from './components/Card';
 
